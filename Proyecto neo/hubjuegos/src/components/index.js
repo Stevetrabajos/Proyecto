@@ -1,3 +1,7 @@
-// index.js------ src/componets/index.js
-export * from "./header/header";
-export * from "./footer/footer";
+
+export * from "./Header/Header";
+export * from "./Footer/Footer";
+export * from "./CardPokemons/CardPokemons";
+export * from "./Spinner/Spinner";
+export * from "./ButtonFilter/ButtonFilter";
+export * from "./spinner/SpinnerButton";
