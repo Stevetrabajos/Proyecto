@@ -8,19 +8,19 @@ const template = () => `
       <li>
         <figure id="navigatePokemon">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761508/pngwing.com_r0hr9b.png"
+            src="https://cdn.kobo.com/book-images/c31f89e9-7726-4ef2-9691-031c5e52f15d/353/569/90/False/the-complete-pokemon-pokedex.jpg"
             alt="go to page pokemon"
           />
           <h2>POKEMON</h2>
         </figure>
       </li>
       <li>
-        <figure>
+      <figure id="3enraya">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png"
-            alt=" go to wacka topo game"
+            src="https://media.istockphoto.com/id/1299481774/es/vector/brillante-l%C3%ADnea-de-ne%C3%B3n-tic-tac-icono-de-juego-de-dedos-aislado-sobre-fondo-negro-vector.jpg?s=612x612&w=0&k=20&c=kGSb1o5kWX1JW1Sc5TQoC3GMIbX8Pj9W94_fHoolCDk="
+            alt="go to three in a row"
           />
-          <h2>WACKA TOPO</h2>
+          <h2>three in a row</h2>
         </figure>
       </li>
       <li>
@@ -43,6 +43,16 @@ const addEventListeners = () => {
   const navigatePokemon = document.getElementById("navigatePokemon");
   navigatePokemon.addEventListener("click", () => {
     initControler("Pokemon");
+  });
+};
+
+const addEventListeners1 = () => {
+  /** le damos el evento al boton de pokemon que es la unica pagina de contenido por
+   * ahora esta creada en el proyecto
+   */
+  const navigatePokemon = document.getElementById("3enraya");
+  navigatePokemon.addEventListener("click", () => {
+    initControler("3enraya");
   });
 };
 
